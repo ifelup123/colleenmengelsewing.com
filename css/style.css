@@ -1,0 +1,447 @@
+@charset "utf-8";
+h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 3.75em;
+    color: #333;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 2.25em;
+    color: #333;
+    font-weight: 300;
+    margin-top: 0;
+}
+h3 {
+    font-family: "calibri";
+    font-size: 1.5em;
+    font-style: italic;
+    color: #666;
+    font-weight: 200;
+    margin-left: 0.39em;
+    margin-right: 0.39em;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 300;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.hovermenu ul {
+    font: bold 1.125em arial;
+    padding-left: 0;
+    margin-left: 0;
+    padding-top: 0.250em;
+    height: 1.250em;
+}
+.hovermenu ul li {
+    list-style: none;
+    display: inline;
+}
+.hovermenu ul li a {
+    padding: 0.125em 0.5em;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 0.125em solid black;
+}
+.hovermenu ul li a:hover {
+    background-color: white;
+    color: black;
+    border-style: outset;
+}
+.hovermenu ul li a:active {
+    /* Apply mousedown effect only to NON IE browsers */
+    
+    border-style: inset;
+}
+#headertext {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+.box {
+    float: left;
+    vertical-align: text-top;
+}
+#root {
+    max-width: 60em;
+    margin: 0 auto;
+    color: #424242;
+}
+#header {
+    width: 100%;
+    text-align: center;
+}
+#nav {
+    width: 100%;
+    background-color: black;
+    height: 2.3em;
+}
+a:link {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 1em;
+    color: white;
+    margin-left: 3.75em;
+    margin-right: 1.875em;
+    text-decoration: none;
+    text-align: center;
+}
+a:visited {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 1em;
+    color: white;
+    margin-left: 3.75;
+    margin-right: 1.875em;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 1em;
+    color: yellow;
+    margin-left: 3.75em;
+    margin-right: 1.875em;
+    text-decoration: none;
+    text-align: center;
+}
+#statement {
+    padding-top: 5em;
+}
+#map {
+    padding-top: 8em;
+}
+#pic {
+    width: 100%;
+    background-color: #D6D6D6;
+}
+/* Laptop/Tablet (1024px) */
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 1.92em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+    h4 {
+        font-size: 1.2em;
+    }
+    .hovermenu ul {
+        font: bold 0.9em arial;
+        padding-top: 0.2em;
+        height: 0.8em;
+    }
+    #headertext {
+        font-family: 'Great Vibes', cursive;
+        font-size: 3.5em;
+        font-weight: bold;
+    }
+    .box {
+        float: left;
+        vertical-align: text-top;
+    }
+    #root {
+        max-width: 60em;
+        margin: 0 auto;
+        color: #424242;
+    }
+    #header {
+        width: 100%;
+        text-align: center;
+    }
+    #nav {
+        width: 100%;
+        background-color: black;
+        height: 2.3em;
+    }
+    a:link {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 1em;
+        color: white;
+        margin-left: 3.75em;
+        margin-right: 1.875em;
+        text-decoration: none;
+        text-align: center;
+    }
+    a:visited {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 1em;
+        color: white;
+        margin-left: 3.75;
+        margin-right: 1.875em;
+        text-decoration: none;
+        text-align: center;
+    }
+    a:hover {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 1em;
+        color: yellow;
+        margin-left: 3.75em;
+        margin-right: 1.875em;
+        text-decoration: none;
+        text-align: center;
+    }
+    #statement {
+        padding-top: 5em;
+    }
+    #map {
+        padding-top: 8em;
+    }
+    #pic {
+        width: 100%;
+        background-color: #D6D6D6;
+    }
+}
+/* Tablet Portrait (768px) */
+
+@media only screen and (min-width: 321px) and (max-width: 1024px) and (orientation: portrait) {
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 1.92em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+    h4 {
+        font-size: 1.2em;
+    }
+    .hovermenu ul {
+        font: bold 0.9em arial;
+        padding-top: 0.2em;
+        height: 0.8em;
+    }
+    #headertext {
+        font-family: 'Great Vibes', cursive;
+        font-size: 3.5em;
+        font-weight: bold;
+    }
+    .box {
+        float: left;
+        vertical-align: text-top;
+    }
+    #root {
+        max-width: 60em;
+        margin: 0 auto;
+        color: #424242;
+    }
+    #header {
+        width: 100%;
+        text-align: center;
+    }
+    #nav {
+        width: 100%;
+        background-color: black;
+        height: 2.3em;
+    }
+    a:link {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 1em;
+        color: white;
+        margin-left: 3.75em;
+        margin-right: 1.875em;
+        text-decoration: none;
+        text-align: center;
+    }
+    a:visited {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 1em;
+        color: white;
+        margin-left: 3.75;
+        margin-right: 1.875em;
+        text-decoration: none;
+        text-align: center;
+    }
+    a:hover {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 1em;
+        color: yellow;
+        margin-left: 3.75em;
+        margin-right: 1.875em;
+        text-decoration: none;
+        text-align: center;
+    }
+    #statement {
+        padding-top: 5em;
+    }
+    #map {
+        padding-top: 8em;
+    }
+    #pic {
+        width: 100%;
+        background-color: #D6D6D6;
+    }
+}
+/* Phone Landscape (480px) */
+
+@media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
+    h1 {
+        font-size: 2.4em;
+    }
+    h2 {
+        font-size: 1.536em;
+    }
+    h3 {
+        font-size: 0.96em;
+    }
+    h4 {
+        font-size: 0.96em;
+    }
+    .hovermenu ul {
+        font: bold 0.9em arial;
+        padding-top: 0.2em;
+        height: 0.8em;
+    }
+    #headertext {
+        font-family: 'Great Vibes', cursive;
+        font-size: 3.5em;
+        font-weight: bold;
+    }
+    .box {
+        float: left;
+        vertical-align: text-top;
+    }
+    #root {
+        max-width: 60em;
+        margin: 0 auto;
+        color: #424242;
+    }
+    #header {
+        width: 100%;
+        text-align: center;
+    }
+    #nav {
+        width: 100%;
+        background-color: black;
+        height: 2.3em;
+    }
+    a:link {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 1em;
+        color: white;
+        margin-left: 3.75em;
+        margin-right: 1.875em;
+        text-decoration: none;
+        text-align: center;
+    }
+    a:visited {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 1em;
+        color: white;
+        margin-left: 3.75;
+        margin-right: 1.875em;
+        text-decoration: none;
+        text-align: center;
+    }
+    a:hover {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 1em;
+        color: yellow;
+        margin-left: 3.75em;
+        margin-right: 1.875em;
+        text-decoration: none;
+        text-align: center;
+    }
+    #statement {
+        padding-top: 5em;
+    }
+    #map {
+        padding-top: 8em;
+    }
+    #pic {
+        width: 100%;
+        background-color: #D6D6D6;
+    }
+}
+/* Phone Portrait (320px) */
+
+@media only screen and (max-width: 320px) {
+    h1 {
+        font-size: 1.92em;
+    }
+    h2 {
+        font-size: 1.2288em;
+    }
+    h3 {
+        font-size: 0.768em;
+    }
+    h4 {
+        font-size: 0.768em;
+    }
+    .hovermenu ul {
+        font: bold 0.9em arial;
+        padding-top: 0.2em;
+        height: 0.8em;
+    }
+    #headertext {
+        font-family: 'Great Vibes', cursive;
+        font-size: 3.5em;
+        font-weight: bold;
+    }
+    .box {
+        float: left;
+        vertical-align: text-top;
+    }
+    #root {
+        max-width: 60em;
+        margin: 0 auto;
+        color: #424242;
+    }
+    #header {
+        width: 100%;
+        text-align: center;
+    }
+    #nav {
+        width: 100%;
+        background-color: black;
+        height: 2.3em;
+    }
+    a:link {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 1em;
+        color: white;
+        margin-left: 3.75em;
+        margin-right: 1.875em;
+        text-decoration: none;
+        text-align: center;
+    }
+    a:visited {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 1em;
+        color: white;
+        margin-left: 3.75;
+        margin-right: 1.875em;
+        text-decoration: none;
+        text-align: center;
+    }
+    a:hover {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 1em;
+        color: yellow;
+        margin-left: 3.75em;
+        margin-right: 1.875em;
+        text-decoration: none;
+        text-align: center;
+    }
+    #statement {
+        padding-top: 5em;
+    }
+    #map {
+        padding-top: 8em;
+    }
+    #pic {
+        width: 100%;
+        background-color: #D6D6D6;
+    }
+}
